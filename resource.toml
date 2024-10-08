@@ -1,0 +1,8 @@
+
+type = "server"
+main = "server/main.js"
+client_main = "client/billiard.js"
+name = "billiard-system"
+description = "A simple billiard system for AltV"
+version = "1.0.0"
+author = "User"

@@ -1,0 +1,38 @@
+{
+  "name": "billiard-system",
+  "version": "1.0.0",
+  "description": "Billiard system for AltV",
+  "main": "src/server/main.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@altv/types-client": "^16.2.6",
+    "@altv/types-natives": "^16.2.1",
+    "@altv/types-server": "^16.2.4",
+    "@altv/types-shared": "latest",
+    "@altv/types-webview": "latest",
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.2.186",
+    "@types/node": "^14.18.33",
+    "nodemon": "^2.0.16",
+    "rimraf": "^3.0.2",
+    "tsup": "^4.11.2",
+    "typescript": "latest"
+  },
+  "prettier": {
+    "tabWidth": 4,
+    "semi": true,
+    "printWidth": 120,
+    "arrowParens": "always",
+    "singleQuote": true
+  },
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.6.3",
+    "copyfiles": "^2.4.1",
+    "node-fetch": "^3.3.1"
+  },
+  "author": "User",
+  "license": "ISC"
+}

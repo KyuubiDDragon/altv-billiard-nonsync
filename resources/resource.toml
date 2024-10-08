@@ -1,0 +1,4 @@
+type = 'js'
+main = 'server/main.js'
+client_main = 'client/billiard.js'
+client-files = [ 'client/*']
